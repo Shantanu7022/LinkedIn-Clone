@@ -20,7 +20,7 @@ a{
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    padding: 6px 6px;
+    padding: 6px 6%;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -43,8 +43,27 @@ a{
     align-items: center;
     font-size: 14px;
     margin: 5px 8px;
-    padding: 5px;
+    padding-right: 5px;
+    position: relative;
 }
+
+
+.navbar-center ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #045be6;
+    position: absolute;
+    bottom: -15px;
+    transition: width 0.3s;
+}
+
+.navbar-center ul li a:hover::after,
+.navbar-center ul li a.active-link::after
+{
+    width: 100%;
+}
+
 
 .navbar-center ul li a img{
     width: 30px;
@@ -72,3 +91,34 @@ a{
     background: #41db51;
     position: absolute;
 }
+
+.search-box{
+    background: #f0f2f5;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.search-box img{
+    width: 14px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: 0;
+}
+
+/*-----------------Navbar End ---------------------*/
+
+
