@@ -331,6 +331,32 @@ a{
     margin: 20px auto 10px;
 }
 
+.sidebar-useful-links{
+    padding: 15px 25px;
+    text-align: center;
+}
+
+
+.sidebar-useful-links a{
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.copyright-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.copyright-msg img{
+    width: 18px;
+    margin-right: 6px;
+}
+
 /* -------------------main-content --------------------*/
 
 .main-content{
