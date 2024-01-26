@@ -292,6 +292,45 @@ a{
     font-size: 13px;
 }
 
+.sidebar-ad{
+    background: #fff;
+    padding: 15px 25px;
+    text-align: center;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.sidebar-ad img{
+    width: 60px;
+    margin: 4px;
+    border-radius: 50%;
+}
+
+.sidebar-ad small{
+    float: right;
+    font-weight: 500;
+}
+.sidebar-ad p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sidebar-ad b{
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.ad-link{
+    display: inline-block;
+    border: 1px solid #045be6;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #045be6;
+    font-weight: 540;
+    margin: 20px auto 10px;
+}
+
 /* -------------------main-content --------------------*/
 
 .main-content{
