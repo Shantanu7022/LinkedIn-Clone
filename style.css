@@ -134,6 +134,8 @@ a{
 .left-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 
 .sidebar-profile-box{
@@ -253,6 +255,8 @@ a{
 .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 
 .sidebar-news{
@@ -543,4 +547,87 @@ a{
 
 .post-activity-link span{
     cursor: pointer;
+}
+
+
+/*------------- profile-drop-down-menu ----------------*/
+.profile-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 320px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.profile-menu-wrap.open-menu{
+    max-height: 400px;
+}
+
+.profile-menu{
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid rgb(132, 160, 244);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);;
+    border-radius: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h3{
+    font-weight: 500;
+    margin-bottom: -7px;
+}
+
+.user-info a{
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid #045be6;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #045be6;
+    font-weight: 540;
+    margin: 20px auto 10px;
+    transition: 0.3s;
+}
+.user-info a:hover{
+    border: 2px solid #045be6;
+    color: #ffffff;
+    background-color: #045be6;
+}
+
+.profile-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #180000;
+    margin: 15px 0 10px;
+}
+
+.profile-menu-link{
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.profile-menu-link p{
+    width: 100%;
+}
+
+.profile-menu-link img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
