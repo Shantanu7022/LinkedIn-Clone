@@ -1,5 +1,5 @@
 let profileMenu = document.getElementById("profileMenu");
 
-function toggleMenu(){
+function toggleMenu() {
     profileMenu.classList.toggle("open-menu");
 }

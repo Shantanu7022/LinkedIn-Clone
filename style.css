@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f0f2f5;
     color: #5f5f5f;
 }
 
-a{
+a {
     text-decoration: none;
     color: #5f5f5f;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,18 +27,18 @@ a{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo img{
+.logo img {
     width: 30px;
     margin-right: 15px;
     display: block;
 }
 
-.navbar-center ul li{
+.navbar-center ul li {
     display: inline-block;
     list-style: none;
 }
 
-.navbar-center ul li a{
+.navbar-center ul li a {
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -48,7 +48,7 @@ a{
 }
 
 
-.navbar-center ul li a::after{
+.navbar-center ul li a::after {
     content: '';
     width: 0;
     height: 2px;
@@ -59,17 +59,16 @@ a{
 }
 
 .navbar-center ul li a:hover::after,
-.navbar-center ul li a.active-link::after
-{
+.navbar-center ul li a.active-link::after {
     width: 100%;
 }
 
 
-.navbar-center ul li a img{
+.navbar-center ul li a img {
     width: 30px;
 }
 
-.nav-profile-img{
+.nav-profile-img {
     width: 40px;
     display: block;
     cursor: pointer;
@@ -77,10 +76,11 @@ a{
     border-radius: 50%;
 }
 
-.online{
+.online {
     position: relative;
 }
-.online::after{
+
+.online::after {
     content: '';
     width: 7px;
     height: 7px;
@@ -92,7 +92,7 @@ a{
     position: absolute;
 }
 
-.search-box{
+.search-box {
     background: #f0f2f5;
     width: 250px;
     border-radius: 10px;
@@ -102,16 +102,16 @@ a{
 }
 
 
-.navbar-left{
+.navbar-left {
     display: flex;
     align-items: center;
 }
 
-.search-box img{
+.search-box img {
     width: 14px;
 }
 
-.search-box input{
+.search-box input {
     width: 100%;
     background: transparent;
     padding: 8px;
@@ -122,7 +122,7 @@ a{
 /*-----------------Navbar End ---------------------*/
 
 
-.container{
+.container {
     padding: 20px 6%;
     display: flex;
     flex-wrap: wrap;
@@ -131,22 +131,22 @@ a{
 
 /* ------------------left-sidebar --------------------*/
 
-.left-sidebar{
+.left-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
     top: 73px;
 }
 
-.sidebar-profile-box{
+.sidebar-profile-box {
     background: #fff;
 }
 
-.sidebarprofile-info{
+.sidebarprofile-info {
     padding: 0 25px;
 }
 
-.sidebarprofile-info img{
+.sidebarprofile-info img {
     width: 90px;
     border-radius: 50%;
     background: #fff;
@@ -154,40 +154,48 @@ a{
     margin-top: -45px;
 }
 
-.sidebarprofile-info h1{
+.sidebarprofile-info h1 {
     font-size: 20px;
     font-weight: 500;
     color: #222;
 }
 
-.sidebarprofile-info h3{
+.sidebarprofile-info h3 {
     font-size: 14px;
     font-weight: 500;
     color: #777;
 }
 
-.sidebarprofile-info ul{
+.sidebarprofile-info ul {
     list-style: none;
     margin: 20px 0;
 }
-.sidebarprofile-info ul li{
+
+.sidebarprofile-info ul li {
     width: 100%;
+    height: 18px;
     margin: 5px 0;
     font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.sidebarprofile-info ul li span{
+.sidebarprofile-info ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.sidebarprofile-info ul li span {
     float: right;
     color: #045be6;
 }
 
-.sidebar-profile-link{
+.sidebar-profile-link {
     display: flex;
     align-items: center;
     border-top: 1px solid #ccc;
 }
 
-.sidebar-profile-link a{
+.sidebar-profile-link a {
     flex-basis: 50%;
     display: flex;
     align-items: center;
@@ -197,44 +205,49 @@ a{
     border-left: 1px solid #ccc;
 }
 
-.sidebar-profile-link a:first-child{
+.sidebar-profile-link a:first-child {
     border-left: 0;
 }
 
-.sidebar-profile-link a img{
+.sidebar-profile-link a img {
     width: 20px;
     margin-right: 10px;
 }
 
 
-.sidebar-activity{
+.sidebar-activity {
     background: #fff;
     padding: 5px 25px;
     margin: 12px 0;
 }
 
-.sidebar-activity h3{
+.sidebar-activity h3 {
     color: #777;
     font-size: 14px;
     font-weight: 500;
     margin: 20px 0 10px;
 }
 
-.sidebar-activity a{
+.sidebar-activity a {
     display: flex;
     align-items: center;
     font-size: 12px;
     font-weight: 500;
     color: #888;
     margin: 3px 0;
+    transition: 0.3s;
 }
 
-.sidebar-activity a img{
+.sidebar-activity a:hover {
+    background-color: #ececec;
+}
+
+.sidebar-activity a img {
     width: 20px;
     margin-right: 10px;
 }
 
-.discover-more-link{
+.discover-more-link {
     border-top: 1px solid #ccc;
     text-align: center;
     margin-top: 20px;
@@ -242,7 +255,7 @@ a{
     margin-right: -25px;
 }
 
-.discover-more-link a{
+.discover-more-link a {
     color: #045be6;
     display: inline-block;
     margin: 10px 0;
@@ -252,32 +265,32 @@ a{
 
 /* ------------------right-sidebar --------------------*/
 
-.right-sidebar{
+.right-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
     top: 73px;
 }
 
-.sidebar-news{
+.sidebar-news {
     background: #fff;
     padding: 10px 25px;
 }
 
-.info-icon{
+.info-icon {
     width: 15px;
     float: right;
     margin-top: 15px;
 }
 
-.sidebar-news h3{
+.sidebar-news h3 {
     font-size: 18px;
     font-weight: 600;
     color: #333;
     margin: 10px 0 30px;
 }
 
-.sidebar-news a{
+.sidebar-news a {
     display: block;
     font-size: 12px;
     font-weight: 600;
@@ -285,18 +298,18 @@ a{
     margin-bottom: -2px;
 }
 
-.sidebar-news span{
+.sidebar-news span {
     font-size: 12px;
 }
 
-.sidebar-news .read-more-link{
+.sidebar-news .read-more-link {
     color: #045be6;
     font-weight: 500;
     margin: 20px 0 10px;
     font-size: 13px;
 }
 
-.sidebar-ad{
+.sidebar-ad {
     background: #fff;
     padding: 15px 25px;
     text-align: center;
@@ -304,28 +317,29 @@ a{
     font-size: 12px;
 }
 
-.sidebar-ad img{
+.sidebar-ad img {
     width: 60px;
     margin: 4px;
     border-radius: 50%;
 }
 
-.sidebar-ad small{
+.sidebar-ad small {
     float: right;
     font-weight: 500;
 }
-.sidebar-ad p{
+
+.sidebar-ad p {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.sidebar-ad b{
+.sidebar-ad b {
     display: block;
     font-weight: 500;
     margin-top: 10px;
 }
 
-.ad-link{
+.ad-link {
     display: inline-block;
     border: 1px solid #045be6;
     border-radius: 30px;
@@ -335,19 +349,19 @@ a{
     margin: 20px auto 10px;
 }
 
-.sidebar-useful-links{
+.sidebar-useful-links {
     padding: 15px 25px;
     text-align: center;
 }
 
 
-.sidebar-useful-links a{
+.sidebar-useful-links a {
     display: inline-block;
     font-size: 14px;
     margin: 4px 2px;
 }
 
-.copyright-msg{
+.copyright-msg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,34 +370,34 @@ a{
     font-weight: 500;
 }
 
-.copyright-msg img{
+.copyright-msg img {
     width: 18px;
     margin-right: 6px;
 }
 
 /* -------------------main-content --------------------*/
 
-.main-content{
+.main-content {
     flex-basis: 47%;
 }
 
-.create-post{
+.create-post {
     background: #fff;
 }
 
-.create-post-input{
+.create-post-input {
     padding: 20px 25px 10px;
     display: flex;
     align-items: flex-start;
 }
 
-.create-post-input img{
+.create-post-input img {
     width: 35px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.create-post-input textarea{
+.create-post-input textarea {
     width: 100%;
     border: 0;
     outline: 0;
@@ -392,16 +406,16 @@ a{
     margin-top: 8px;
 }
 
-::placeholder{
+::placeholder {
     font-weight: 500;
 }
 
-.create-post-links{
+.create-post-links {
     display: flex;
     align-items: flex-start;
 }
 
-.create-post-links li{
+.create-post-links li {
     list-style: none;
     border-top: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -414,81 +428,82 @@ a{
     cursor: pointer;
 }
 
-.create-post-links li img{
+.create-post-links li img {
     width: 15px;
     margin-right: 5px;
 }
 
-.create-post-links li:last-child{
+.create-post-links li:last-child {
     background: #045be6;
     color: #fff;
     border-top: 0;
     border-right: 0;
 }
 
-.sort-by{
+.sort-by {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
 
-.sort-by hr{
+.sort-by hr {
     flex: 1;
     border: 0;
     height: 1px;
     background: #ccc;
 }
 
-.sort-by p{
+.sort-by p {
     font-size: 13px;
     padding-left: 5px;
 }
 
-.sort-by p span{
+.sort-by p span {
     font-weight: 600;
     cursor: pointer;
 }
-.sort-by p span img{
+
+.sort-by p span img {
     width: 12px;
     margin-left: 3px;
 }
 
-.post{
+.post {
     background: #fff;
     padding: 20px 25px 5px;
     margin: 5px 0 15px;
 }
 
-.post-author{
+.post-author {
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
 }
 
-.post-author img{
+.post-author img {
     width: 35px;
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 5px;
 }
 
-.post-author h1{
+.post-author h1 {
     font-size: 18px;
     font-weight: 600;
     color: #333;
 }
 
-.post-author small{
+.post-author small {
     display: block;
     margin-bottom: -2px;
 }
 
-.post p{
+.post p {
     font-size: 14px;
     margin-bottom: 15px;
 }
 
-.post-stats{
+.post-stats {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -498,22 +513,22 @@ a{
     padding-bottom: 6px;
 }
 
-.post-stats div{
+.post-stats div {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-.post-stats img{
+.post-stats img {
     width: 15px;
     margin-right: -5px;
 }
 
-.liked-users{
+.liked-users {
     margin-left: 10px;
 }
 
-.post-activity{
+.post-activity {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -522,36 +537,36 @@ a{
     font-weight: 500;
 }
 
-.post-activity div{
+.post-activity div {
     display: flex;
     align-items: center;
 }
 
-.post-activity-user-icon{
+.post-activity-user-icon {
     width: 22px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.post-activity-arrow-icon{
+.post-activity-arrow-icon {
     width: 12px;
     margin-left: 5px;
     cursor: pointer;
 }
 
-.post-activity-link img{
+.post-activity-link img {
     width: 18px;
     margin-right: 8px;
     cursor: pointer;
 }
 
-.post-activity-link span{
+.post-activity-link span {
     cursor: pointer;
 }
 
 
 /*------------- profile-drop-down-menu ----------------*/
-.profile-menu-wrap{
+.profile-menu-wrap {
     position: absolute;
     top: 100%;
     right: 5%;
@@ -561,36 +576,37 @@ a{
     transition: max-height 0.5s;
 }
 
-.profile-menu-wrap.open-menu{
+.profile-menu-wrap.open-menu {
     max-height: 400px;
 }
 
-.profile-menu{
+.profile-menu {
     background: #ffffff;
     padding: 20px;
     margin: 10px;
     border: 1px solid rgb(132, 160, 244);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    ;
     border-radius: 10px;
 }
 
-.user-info{
+.user-info {
     display: flex;
     align-items: center;
 }
 
-.user-info img{
+.user-info img {
     width: 50px;
     border-radius: 50%;
     margin-right: 15px;
 }
 
-.user-info h3{
+.user-info h3 {
     font-weight: 500;
     margin-bottom: -7px;
 }
 
-.user-info a{
+.user-info a {
     font-size: 14px;
     display: inline-block;
     border: 2px solid #045be6;
@@ -601,13 +617,14 @@ a{
     margin: 20px auto 10px;
     transition: 0.3s;
 }
-.user-info a:hover{
+
+.user-info a:hover {
     border: 2px solid #045be6;
     color: #ffffff;
     background-color: #045be6;
 }
 
-.profile-menu hr{
+.profile-menu hr {
     border: 0;
     height: 1px;
     width: 100%;
@@ -615,18 +632,23 @@ a{
     margin: 15px 0 10px;
 }
 
-.profile-menu-link{
+.profile-menu-link {
     display: flex;
     align-items: center;
     margin: 12px 0;
     font-size: 14px;
+    transition: 0.3s;
 }
 
-.profile-menu-link p{
+.profile-menu-link:hover {
+    background-color: #ececec;
+}
+
+.profile-menu-link p {
     width: 100%;
 }
 
-.profile-menu-link img{
+.profile-menu-link img {
     width: 35px;
     border-radius: 50%;
     margin-right: 15px;
