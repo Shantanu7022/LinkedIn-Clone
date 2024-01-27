@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href=""><img src="images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href=""><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href=""><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href=""><img src="images/notification.png" alt=""><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" alt="" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <!------------- profile-drop-down-menu ----------------->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+
+                    <div>
+                        <h3>Shantanu Gayen</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!----------- Navbar End -------------->
+
+    <div class="container">
+<!--------- profile main --------------->
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" alt="" width="100%" class="cover-img">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" alt="" class="profile-pic">
+                    <h1>Shantanu Gayen</h1>
+                    <b>Web Developer at TCS | ECE Final Year Student</b>
+                    <p>Fastest-growing jobs in seven cities &middot; <a href="#">Contact info</a></p>
+                    <p>500+ connection</p>
+
+                    <div class="mutual-connection">
+                        <img src="images/user-3.png" alt="">
+                        <span>1 mutual connection: Susmita Sen</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------- profile sidebar --------------->
+        <div class="profile-sidebar"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
