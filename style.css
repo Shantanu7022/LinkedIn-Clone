@@ -713,5 +713,42 @@ a {
 .mutual-connection img{
     width: 30px;
     border-radius: 50%;
-    margin-right: ;
+    margin-right: 5px;
+}
+
+.profile-btn{
+    margin: 20px 0;
+}
+
+.profile-btn a{
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.profile-btn a img{
+    width: 18px;
+    margin-right: 5px;
+}
+.profile-btn .primary-btn{
+    color: #fff;
+    background-color: #045be6;
+    transition: 0.3s;
+}
+
+.profile-btn .primary-btn:hover{
+    background-color: #0141a7;
+}
+
+.profile-btn .Second-btn{
+    border: 2px solid  #045be6;
+    color:  #045be6;
+}
+
+.profile-btn .Second-btn:hover{
+    background-color: #dedddd;
 }
