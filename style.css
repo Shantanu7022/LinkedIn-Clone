@@ -321,6 +321,7 @@ a {
     width: 60px;
     margin: 4px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .sidebar-ad small {
@@ -347,6 +348,11 @@ a {
     color: #045be6;
     font-weight: 540;
     margin: 20px auto 10px;
+    transition: 0.5s;
+}
+.ad-link:hover {
+    background-color: #045be6;
+    color: #ffffff;
 }
 
 .sidebar-useful-links {
@@ -426,6 +432,10 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.5s;
+}
+.create-post-links li:hover {
+    background-color: #d8d8d8;
 }
 
 .create-post-links li img {
@@ -438,6 +448,12 @@ a {
     color: #fff;
     border-top: 0;
     border-right: 0;
+    transition: 0.5s;
+}
+
+.create-post-links li:last-child:hover {
+    background: #003fa4;
+    color: #ffffff;
 }
 
 .sort-by {
@@ -881,5 +897,100 @@ a {
     border: 2px solid #5f5f5f;
     border-radius: 30px;
     font-weight: 600;
+    transition: 0.3s;
 
+}
+.sidebar-people-row a:hover{
+    background-color: #045be6;
+    border: 2px solid #045be6;
+    color: #ccc;
+}
+
+#showMoreLink{
+    display: none;
+}
+
+
+/* ----------------- media query for small screen ------------------ */
+
+@media only screen and (max-width: 600px){
+    .search-box{
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+
+    .search-box input{
+        width: 0;
+        padding: 0;
+    }
+
+    .navbar-center ul li a span{
+        display: none;
+    }
+    .navbar-center ul li a{
+        padding-right: 0;
+        margin: 5px;
+    }
+    .nav-profile-img{
+        width: 30px;
+    }
+    .container{
+        padding: 15px 3%;
+    }
+    .left-sidebar, .right-sidebar{
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+
+    .main-content{
+        flex-basis: 100%;
+    }
+
+    .post-stats div{
+        margin: 2px 0;
+    }
+
+    .post-activity-link span{
+        display: none;
+    }
+
+    .post-activity-link img{
+        margin-right: 0;
+    }
+
+    .profile-main, .profile-sidebar{
+        flex-basis: 100%;
+    }
+
+    .profile-container{
+        font-size: 14px;
+    }
+    .profile-pic{
+        width: 100px;
+        margin-top: -50px;
+    }
+    .cover-img{
+        height: 115px;
+    }
+    .profile-description{
+        font-size: 14px;
+    }
+
+    #showMoreLink{
+        display: block;
+        width: fit-content;
+        margin: 10px auto;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .sidebar-activity{
+        display: none;
+    }
+
+    .sidebar-activity.open-activity{
+        display: block;
+    }
 }
