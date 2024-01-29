@@ -22,20 +22,16 @@ Developed a clone of the "LinkedIn" web app using HTML, CSS and JavaScript. Curr
 
  <br />
 
-
-### Desktop View
+### 💻 Desktop View
 **Home Page**
 ![Screenshot (2280)](https://github.com/Shantanu7022/LinkedIn-Clone/assets/123929397/3830b16b-ab97-44f0-9410-73a4e2c4b04f)
 **Profile Page**
 ![Screenshot (2281)](https://github.com/Shantanu7022/LinkedIn-Clone/assets/123929397/e38f192a-2235-4193-86dc-b811ac3ac4ce)
 
-
-### Responsive View
+### 📱 Responsive View
 ![Screenshot (2284)](https://github.com/Shantanu7022/LinkedIn-Clone/assets/123929397/a6a0b20d-49c5-4c31-9a66-1164379a3808)
 ![Screenshot (2282)](https://github.com/Shantanu7022/LinkedIn-Clone/assets/123929397/0aa3c080-c3da-4fd9-ae76-c88909741a41)
 ![Screenshot (2283)](https://github.com/Shantanu7022/LinkedIn-Clone/assets/123929397/69eb89ed-058a-40a9-b3e4-22b426fe3dfc)
-
-   
 
 
 ## 🖥️ Steps to Build locally:
