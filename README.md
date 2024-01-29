@@ -38,7 +38,7 @@ Developed a clone of the "LinkedIn" web app using HTML, CSS and JavaScript. Curr
    
 
 
-## Steps to Build locally:
+## 🖥️ Steps to Build locally:
 
 **1.** Create a folder in your system.
 
@@ -53,7 +53,7 @@ git clone https://github.com/Shantanu7022/LinkedIn-Clone.git
 <br />
 
 
-## Contribution Guidelines 
+## 🏗 Contribution Guidelines 
 
  To start contributing, follow the below guidelines:
 
