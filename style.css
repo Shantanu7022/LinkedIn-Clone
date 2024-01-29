@@ -501,12 +501,14 @@ a {
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .post-author h1 {
     font-size: 18px;
     font-weight: 600;
     color: #333;
+    cursor: pointer;
 }
 
 .post-author small {
@@ -538,6 +540,7 @@ a {
 .post-stats img {
     width: 15px;
     margin-right: -5px;
+    
 }
 
 .liked-users {
