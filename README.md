@@ -45,11 +45,78 @@ Developed a clone of the "LinkedIn" web app using HTML, CSS and JavaScript. Curr
 **2.** Open that folder and clone this repository.
 
 ```
-git clone https://github.com/Shantanu7022/Tic-Tac-Toe.git
+git clone https://github.com/Shantanu7022/LinkedIn-Clone.git
 ```
 
 **3** You did it! 🥳 Now can use this project in your system.
 
 <br />
+
+
+## Contribution Guidelines 
+
+ To start contributing, follow the below guidelines:
+
+**1.** Fork [this](https://github.com/Shantanu7022/News-Website.git) repository.
+
+**2.** Clone your forked copy of the project.
+
+```
+git clone https://github.com/Shantanu7022/News-Website.git
+```
+
+**3.** Navigate to the project directory.
+
+```
+cd News-Website
+```
+
+**4.** Add a reference to the original repository.
+
+```
+git remote add upstream https://github.com/Shantanu7022/News-Website.git
+```
+
+**5.** Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+**6.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+**7.** Perform your desired changes to the code base.
+
+**8.** Track your changes.
+
+```
+git add .
+```
+
+**9.** Commit your changes.
+
+```
+git commit -m "message"
+```
+
+**10.** Push the committed changes in your feature branch to your remote repository.
+
+```
+git push origin <your_branch_name> -f
+```
+
+**11.** To create a pull request, click on 
+`compare and pull requests`.
+
+**12.** Add an appropriate title and description to your pull request explaining your changes.
+
+**13.** Click on `Create Pull Request`.
+
+**14** You did it!
+
 
 
