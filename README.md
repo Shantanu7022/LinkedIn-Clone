@@ -17,7 +17,7 @@ Developed a clone of the "LinkedIn" web app using HTML, CSS and JavaScript. Curr
 
 - **Frontend:** HTML, CSS and JavaScript
 - **Version Control:** Git and GitHub
-- **Hosting:** Github
+- **Hosting:** Netlify
 - **Code Editor and tools**: VS Code
 
  <br />
