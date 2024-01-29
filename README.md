@@ -57,24 +57,24 @@ git clone https://github.com/Shantanu7022/LinkedIn-Clone.git
 
  To start contributing, follow the below guidelines:
 
-**1.** Fork [this](https://github.com/Shantanu7022/News-Website.git) repository.
+**1.** Fork [this](https://github.com/Shantanu7022/LinkedIn-Clone.git) repository.
 
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/Shantanu7022/News-Website.git
+git clone https://github.com/Shantanu7022/LinkedIn-Clone.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```
-cd News-Website
+cd LinkedIn-Clone
 ```
 
 **4.** Add a reference to the original repository.
 
 ```
-git remote add upstream https://github.com/Shantanu7022/News-Website.git
+git remote add upstream https://github.com/Shantanu7022/LinkedIn-Clone.git
 ```
 
 **5.** Check the remotes for this repository.
