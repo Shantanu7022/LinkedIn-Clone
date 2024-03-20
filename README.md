@@ -11,13 +11,13 @@ Developed a clone of the "LinkedIn" web app using HTML, CSS and JavaScript. Curr
 
 </div>
 
-## 🌎 Deployed Website Link: [Click Here](https://shantanu-linkedin-clone.netlify.app/)
+## 🌎 Deployed Website Link: [Click Here](https://linkedin-clone-shantanu.vercel.app/)
 
 ## Tech Stack :  <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 - **Frontend:** HTML, CSS and JavaScript
 - **Version Control:** Git and GitHub
-- **Hosting:** Netlify
+- **Hosting:** Vercel
 - **Code Editor and tools**: VS Code
 
  <br />
